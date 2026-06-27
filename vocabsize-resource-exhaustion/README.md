@@ -98,7 +98,7 @@ The CLI hangs at `converting model` as the remote server enters the resource-exh
 
 > **Screenshot 1: Remote Attack Execution**
 
-<img width="1084" height="397" alt="1" src="https://github.com/user-attachments/assets/dd8a473d-9c66-4429-8de7-551d3e08e01a" />
+<img width="1084" height="397" alt="565623451-e17ef68e-d486-47e1-b7fb-603943f710fe" src="https://github.com/user-attachments/assets/b4bf5a5d-b0c2-4fd2-ab1a-484c9d8ad34a" />
 
 On the target server, the `ollama` process immediately consumes nearly all available CPU resources while memory usage continuously increases.
 
@@ -106,7 +106,7 @@ Swap usage begins increasing as the system attempts to cope with memory pressure
 
 > **Screenshot 2: Resource Exhaustion on the Target Host**
 
-<img width="1920" height="1200" alt="2" src="https://github.com/user-attachments/assets/498670ef-238b-4472-85a2-cd3eb6e5779b" />
+<img width="1920" height="1200" alt="565619264-a28b9fcb-b442-4cc1-b26a-c53fcf6266df" src="https://github.com/user-attachments/assets/345f969f-1e5e-4753-b589-f3263677064d" />
 
 ---
 
