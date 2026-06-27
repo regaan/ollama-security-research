@@ -224,25 +224,25 @@ The exploit instantly severs the network connection and crashes the server. The 
 
 > **Screenshot 1: The remote target machine (`172.20.10.9`) running the Ollama server, listening on `0.0.0.0` before the attack.**
 
-<img width="1920" height="1200" alt="565634331-003634fc-e5ac-463c-9320-3affc27d8de1" src="https://github.com/user-attachments/assets/9b45bf60-35de-4278-935f-1d4dc0a2b843" />
+<img width="1920" height="1200" alt="565634331-003634fc-e5ac-463c-9320-3affc27d8de1" src="https://github.com/user-attachments/assets/c70d6220-a6eb-4217-8217-8ce60f9ae571" />
 
 ---
 
 > **Screenshot 2: The attacker's terminal script configured to target the remote IP with the `2^60` length payload.**
 
-<img width="1920" height="1200" alt="565634594-d6764bf3-c3d3-43b2-b438-e862cf645998" src="https://github.com/user-attachments/assets/0ecca989-08e2-48a4-81c8-45050e5829e4" />
+<img width="1920" height="1200" alt="565634594-d6764bf3-c3d3-43b2-b438-e862cf645998" src="https://github.com/user-attachments/assets/f400f1df-3ad2-4d93-adb2-e768168aea12" />
 
 ---
 
 > **Screenshot 3: The attacker successfully executes the script. The connection is dropped instantly because the remote server crashed immediately upon receiving the request.**
 
-<img width="1920" height="1200" alt="565634680-56c3e0dc-ca3d-403e-8e57-e5992a116480" src="https://github.com/user-attachments/assets/6cf8acb1-c30f-4499-b030-041622fdabdb" />
+<img width="1920" height="1200" alt="565634680-56c3e0dc-ca3d-403e-8e57-e5992a116480" src="https://github.com/user-attachments/assets/068eaf8f-bd38-4c60-9886-8fd0a8e3c45f" />
 
 ---
 
 > **Screenshot 4: The target server panic. The target server processes the POST request and immediately triggers a Go runtime panic at `gguf.go:361`, terminating the process.**
 
-<img width="1920" height="1017" alt="565635052-3847357c-83dd-429e-8ac6-67a783d6ec4d" src="https://github.com/user-attachments/assets/ca05ecf9-97b4-4c95-a5f1-ccfed9a2525d" />
+<img width="1920" height="1017" alt="565635052-3847357c-83dd-429e-8ac6-67a783d6ec4d" src="https://github.com/user-attachments/assets/9b1e8bdd-091a-49ed-825b-2c80bca084d2" />
 
 ---
 
